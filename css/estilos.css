@@ -1,0 +1,167 @@
+/* Principal */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Gaegu';
+    src: url(../font/Gaegu-Regular.ttf) format('truetype');
+}
+
+
+body{
+    background-color: #D2A673;
+}
+
+main{
+    font-family: 'Gaegu';
+    border-radius: 10px;
+    display: flex;
+    background-color: #F0DBBA;
+    margin: auto;
+    width: 1250px;
+    height: 870px;
+}
+
+/* Lado esquerdo */
+
+#pudim{
+    padding-top: 20px;
+    width: 650px;
+    height: 470px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#titulo{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1{
+    font-size: 50px;
+    color: #985C01;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+#detalhe{
+    transform: rotate(90deg);
+    width: 120px;
+    height: 142px;
+}
+
+
+#descricao{
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+#caixasalvar{
+    padding-left: 500px;
+}
+
+#salvar{
+    font-family: 'Gaegu';
+    font-size: 30px;
+    color: white;
+    background-color: #FF981F;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+}
+
+/* Lado direito */
+
+#direita{
+    padding-left: 50px;
+}
+
+#caixamais{
+    display: flex;
+    width: 520px;
+    background-color: #F0BC7F;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#mais{
+    font-size: 34px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+
+#logo{
+    width: 100px;
+    height: 100px;
+    padding-left: 40px;
+}
+
+#direitabaixo{
+    padding-top: 60px;
+}
+
+#caixaing{
+    background-color: #F5C342;
+    height: 704px;
+    width: 550px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+}
+
+#conteudo{
+    padding-left: 30px;
+}
+
+h2{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.lista{
+    padding-left: 60px;
+    font-size: 28px;
+}
+
+#lista1{
+    padding-bottom: 50px;
+}
+
+
+#info{
+    font-size: 28px;
+    padding-top: 40px;
+}
+
+#caixamodo{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#modo{
+    font-family: 'Gaegu';
+    font-size: 35px;
+    border-radius: 30px;
+    border: none;
+    width: 480px;
+    height: 60px;
+    background-color: #883709;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Autor: Henrique de Moraes Botelho da Silva */
+/* Data da última modificação: 05/03/2022 */
